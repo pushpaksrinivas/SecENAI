@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - SecEnAI</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">SecEnAI</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../team.html">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="/solutions/index.html">Services</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+    <!-- Coming Soon Section -->
+    <section id="coming-soon">
+        <div class="coming-soon-container">
+            <h1>Our Products are Coming Soon!</h1>
+            <p>We are working hard to bring you the best of AI-powered solutions. Stay tuned!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="fotcont">
+            <div class="details">
+                <h3>Contact US</h3>
+                <p>Let’s collaborate to build the next generation of AI-powered semiconductors. Start your AI hardware journey with SecEnAI today!</p>
+                <a href="#" class="fclinks"><i class="fa fa-envelope"></i> contact@secenai.com</a>
+                <a href="#" class="fclinks"><i class="fa fa-phone"></i> +91 1234567890</a>
+                <a href="https://secenaisemiconductors.com/" class="fclinks"><i class="fa fa-globe"></i> secenaisemiconductors.com</a>
+                <div class="fsocial">
+                    <a href="" class="fslinks"><i class="fa fa-instagram"></i></a>
+                    <a href="" class="fslinks"><i class="fa fa-twitter"></i></a>
+                    <a href="" class="fslinks"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="quicklinks">
+                <h3>Quick Links</h3>
+                <a href="../index.html" class="fqlinks">Home</a>
+                <a href="#" class="fqlinks">Solutions</a>
+                <a href="#" class="fqlinks">Carrier</a>
+                <a href="../team.html" class="fqlinks">About US</a>
+                <a href="#" class="fqlinks">Contact</a>
+            </div>
+        </div>
+        <div class="copy">
+            <p>Copyright© SecEnAI PRIVATE LIMITED. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: #F2F9FF;
+    background-color: #000818;
+    color: #e1e9fe;
 }
 
 /* Navbar Styles */
@@ -16,14 +17,16 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background: transparent;
+    backdrop-filter: blur(10px);
     position: sticky;
     top: 0;
     z-index: 3;
+    color: #739bfc;
 }
 
 .navbar .logo a {
-    color: white;
+    color: #739bfc;
     text-decoration: none;
     font-size: 24px;
 }
@@ -38,7 +41,7 @@ body {
 }
 
 .nav-links li a {
-    color: white;
+    color: #739bfc;
     text-decoration: none;
     font-size: 18px;
 }
@@ -54,7 +57,7 @@ body {
 .hamburger .bar {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: #739bfc;
 }
 
 @media (max-width: 768px) {
@@ -63,10 +66,12 @@ body {
         top: 60px;
         right: 0;
         width: 50%;
-        background-color: #333;
+        background: #000818;
+        backdrop-filter: blur(10px);
         flex-direction: column;
         align-items: center;
         display: none;
+        z-index: 3;
     }
 
     .nav-links li {
@@ -173,7 +178,6 @@ body {
 .text-container {
     position: absolute;
     right: 20px;
-    color: #000;
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
     width: 60%;
@@ -405,10 +409,12 @@ body {
 .logo-4 {
     font-size: 3rem;
     margin-right: 10px;
+    color:  #fb24e5;
 }
 
 .heading-2 {
     font-size: 1.2rem;
+    color: #6d03a0;
 }
 
 /* Footer Section */
